@@ -1,6 +1,6 @@
 ---
 name: awwwards
-description: Apply Awwwards-winning design principles. Use when designing UIs, creating frontends, or improving visual design. Triggers on frontend design, UI/UX work, styling, CSS, component design.
+description: "Apply Awwwards-winning design principles: typography, layout, color, motion and WebGL. Use when designing UIs, creating frontends, or improving visual design. Triggers on frontend design, UI/UX work, styling, CSS, component design."
 user-invocable: true
 ---
 

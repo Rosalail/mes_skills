@@ -1,6 +1,6 @@
 ---
 name: micro-interaction
-description: This skill should be used when the user asks to "add a hover/press effect", "animate a toggle or switch", "build an animated like button", "make a toast/snackbar slide in", "animate a drawer or modal", "animate list reordering or add/remove", "do a shared-element layout transition", or "polish UI feedback". Covers UI motion with Framer Motion (motion/react) and modern CSS.
+description: "Use for UI micro-interactions: hover or press effects, toggles and switches, animated like buttons, toasts and snackbars, drawers and modals, list reorder or add/remove, shared-element layout transitions, UI feedback polish. Framer Motion and modern CSS."
 version: 0.1.0
 ---
 

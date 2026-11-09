@@ -1,6 +1,6 @@
 ---
 name: particle-system
-description: This skill should be used when the user asks to "build a particle system", "make confetti/snow/smoke/sparks", "create a connected-dot/constellation network background", "add a flow-field or curl-noise particle effect", "render thousands of GPU particles with Three.js Points", or "animate emitters with forces". Covers per-particle integration, forces, flow fields, burst/continuous emission, spatial-grid connected dots, and GPU points + shaders.
+description: "Use to build particle effects: confetti, snow, smoke, sparks, connected-dot or constellation backgrounds, flow-field or curl-noise motion, emitters with forces, or thousands of GPU particles with Three.js Points and shaders."
 version: 0.1.0
 ---
 

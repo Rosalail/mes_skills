@@ -1,6 +1,6 @@
 ---
 name: 60fps-animation
-description: This skill should be used when the user asks to "fix janky CSS animation", "make animation 60fps", "stop layout thrashing", "animate width/height/top/left smoothly", "convert animation to transform", "animate box-shadow performantly", "animate height auto", "FLIP animation", or "why is my scroll/hover animation choppy".
+description: "Use when a CSS or JS animation is janky or choppy (scroll, hover), or must hit 60fps: stop layout thrashing, move width/height/top/left or box-shadow animations to transform/opacity, animate height auto, or apply FLIP."
 version: 0.1.0
 ---
 

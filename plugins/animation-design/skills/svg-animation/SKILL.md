@@ -1,6 +1,6 @@
 ---
 name: svg-animation
-description: This skill should be used when the user asks to "animate an SVG", "make a line draw itself on", "do a stroke draw-on / signature animation", "morph one shape into another", "move an element along a path", "animate an icon/logo", or "animate an SVG gradient or filter". Covers stroke-dashoffset draw-on, path morphing, motion-along-path, and animated icons/gradients/filters via CSS, SMIL, and GSAP.
+description: "Use to animate SVG: line or signature draw-on with stroke-dashoffset, shape morphing, motion along a path, animated icons and logos, or animated SVG gradients and filters. Covers CSS, SMIL and GSAP techniques."
 version: 0.1.0
 ---
 

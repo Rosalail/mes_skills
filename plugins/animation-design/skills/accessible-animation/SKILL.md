@@ -1,6 +1,6 @@
 ---
 name: accessible-animation
-description: This skill should be used when the user asks to "respect prefers-reduced-motion", "honor reduced motion", "make my animations accessible", "fix vestibular / motion-sickness issues", "add a useReducedMotion hook", "gate GSAP / Framer Motion / Lenis for reduced motion", or "meet WCAG 2.3.3 / C39". Provides tiered (not all-or-nothing) reduced-motion patterns in CSS and JS.
+description: "Use to make animations accessible: respect prefers-reduced-motion, fix vestibular or motion-sickness issues, add a useReducedMotion hook, gate GSAP, Framer Motion or Lenis, or meet WCAG 2.3.3. Gives tiered reduced-motion patterns in CSS and JS."
 version: 0.1.0
 ---
 

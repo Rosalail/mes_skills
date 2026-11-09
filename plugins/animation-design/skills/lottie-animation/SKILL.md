@@ -1,6 +1,6 @@
 ---
 name: lottie-animation
-description: This skill should be used when the user asks to "add a Lottie animation", "play a .lottie or .json animation", "integrate a Bodymovin/After Effects animation on web or mobile", "control Lottie playback / segments", "make a scroll-driven Lottie", "recolor a Lottie at runtime", or "export an AE animation to Lottie". Covers dotLottie/lottie-web integration, playback control, interactivity, theming, and the AE export checklist.
+description: "Use to add or control Lottie animations (.lottie or .json, Bodymovin, After Effects) on web or mobile: playback and segments, scroll-driven Lottie, runtime recoloring, interactivity, and exporting an AE animation to Lottie. Covers dotLottie and lottie-web."
 version: 0.1.0
 ---
 
