@@ -48,4 +48,6 @@ Copié depuis [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector), lic
 
 ## Ajouter un skill
 
+**Obligatoire :** chaque ajout passe d'abord par un scan NVIDIA SkillSpector et une revue du code. Le verdict est donné avant tout commit. Voir `CLAUDE.md` pour la procédure complète.
+
 Placer le dossier du skill (avec son `SKILL.md`) dans `plugins/caveman/skills/`, ou créer un nouveau plugin dans `plugins/` et le déclarer dans `.claude-plugin/marketplace.json`.
