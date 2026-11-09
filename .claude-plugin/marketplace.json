@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mes-skills",
+  "description": "Skills personnels de rosalail.",
+  "owner": {
+    "name": "rosalail",
+    "url": "https://github.com/rosalail"
+  },
+  "plugins": [
+    {
+      "name": "caveman",
+      "description": "Skills Caveman (réponses courtes, revue, refactor...), avec validation obligatoire avant tout envoi par gateway.caveman.so.",
+      "source": "./plugins/caveman",
+      "category": "productivity"
+    }
+  ]
+}

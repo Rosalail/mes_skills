@@ -1,0 +1,10 @@
+{
+  "name": "caveman",
+  "version": "1.0.0",
+  "description": "22 skills copiés depuis JuliusBrussee/caveman (Apache-2.0). caveman-setup et caveman-discover demandent une validation avant d'envoyer le trafic API par gateway.caveman.so.",
+  "author": {
+    "name": "rosalail",
+    "url": "https://github.com/rosalail"
+  },
+  "license": "Apache-2.0"
+}
