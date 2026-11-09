@@ -22,6 +22,14 @@ Contient 22 skills, dans `plugins/caveman/skills/`, copiés depuis [JuliusBrusse
 
 Modification locale : `caveman-setup` et `caveman-discover` font passer le trafic API (requêtes et clés) par le service tiers `gateway.caveman.so`. Leur description et une section en tête de leur `SKILL.md` obligent l'agent à demander une validation explicite avant tout envoi par ce service.
 
+## Plugin `impeccable`
+
+Copié depuis [pbakaus/impeccable](https://github.com/pbakaus/impeccable), version 4.8.1, licence Apache-2.0. Ce plugin sert au design frontend : `/impeccable shape`, `audit`, `critique`, `polish`, `animate`, etc. Il inclut les agents et les hooks d'origine, qui lancent un contrôle de design au démarrage, après chaque `Edit`/`Write` et à la fin d'une réponse. Au premier usage, son lanceur télécharge un binaire et vérifie son empreinte avec `engine-checksums.txt`.
+
+## Plugin `taste-skill`
+
+Copié depuis [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill), version 2.5.1, licence MIT. Le skill `design-taste-frontend` sert à construire des sites web professionnels, vérifiés dans un vrai navigateur. Il pèse environ 40 Mo, à cause des images d'exemple.
+
 ## Ajouter un skill
 
 Placer le dossier du skill (avec son `SKILL.md`) dans `plugins/caveman/skills/`, ou créer un nouveau plugin dans `plugins/` et le déclarer dans `.claude-plugin/marketplace.json`.

@@ -12,6 +12,18 @@
       "description": "Skills Caveman (réponses courtes, revue, refactor...), avec validation obligatoire avant tout envoi par gateway.caveman.so.",
       "source": "./plugins/caveman",
       "category": "productivity"
+    },
+    {
+      "name": "impeccable",
+      "description": "Design frontend : créer, critiquer, auditer, polir ou animer une interface (24 commandes /impeccable). Copié depuis pbakaus/impeccable (Apache-2.0).",
+      "source": "./plugins/impeccable",
+      "category": "design"
+    },
+    {
+      "name": "taste-skill",
+      "description": "Sites web professionnels au niveau figma.com / x.ai, vérifiés dans un vrai navigateur. Copié depuis Leonxlnx/taste-skill (MIT).",
+      "source": "./plugins/taste-skill",
+      "category": "design"
     }
   ]
 }
