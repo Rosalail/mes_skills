@@ -1,6 +1,9 @@
 {
   "name": "animation-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "14 skills d'animation et de design web : 60fps, accessibilité, ASCII, Awwwards, frontend-design, glassmorphism, GSAP, Lottie, micro-interactions, transitions de page, particules, shaders GLSL, SVG, Three.js.",
-  "author": { "name": "rosalail", "url": "https://github.com/rosalail" }
+  "author": {
+    "name": "rosalail",
+    "url": "https://github.com/rosalail"
+  }
 }
