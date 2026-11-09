@@ -30,6 +30,18 @@ Copié depuis [pbakaus/impeccable](https://github.com/pbakaus/impeccable), versi
 
 Copié depuis [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill), version 2.5.1, licence MIT. Le skill `design-taste-frontend` sert à construire des sites web professionnels, vérifiés dans un vrai navigateur. Il pèse environ 40 Mo, à cause des images d'exemple.
 
+## Plugin `animation-design`
+
+Rassemble 14 skills d'animation et de design web : `60fps-animation`, `accessible-animation`, `ascii-animation`, `awwwards`, `frontend-design`, `glassmorphism`, `gsap-web`, `lottie-animation`, `micro-interaction`, `page-transition-animation`, `particle-system`, `shader-glsl`, `svg-animation` et `threejs-animation`. Les sources et licences sont dans `plugins/animation-design/SOURCES.md`.
+
+## Plugin `core-3d-animation`
+
+Copié depuis [freshtechbro/claudedesignskills](https://github.com/freshtechbro/claudedesignskills), licence MIT. Couvre Three.js, GSAP ScrollTrigger, React Three Fiber, Framer Motion et Babylon.js, avec des commandes et des agents.
+
+## Plugin `superpowers`
+
+Pas de copie ici : la marketplace pointe directement vers [obra/superpowers](https://github.com/obra/superpowers), qui reste ainsi toujours à jour. Couvre la planification, le débogage, le TDD et la revue de code.
+
 ## Ajouter un skill
 
 Placer le dossier du skill (avec son `SKILL.md`) dans `plugins/caveman/skills/`, ou créer un nouveau plugin dans `plugins/` et le déclarer dans `.claude-plugin/marketplace.json`.

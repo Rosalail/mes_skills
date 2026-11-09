@@ -24,6 +24,27 @@
       "description": "Sites web professionnels au niveau figma.com / x.ai, vérifiés dans un vrai navigateur. Copié depuis Leonxlnx/taste-skill (MIT).",
       "source": "./plugins/taste-skill",
       "category": "design"
+    },
+    {
+      "name": "animation-design",
+      "description": "14 skills d'animation et de design web (GSAP, Lottie, Three.js, shaders, particules, micro-interactions, Awwwards, frontend-design…).",
+      "source": "./plugins/animation-design",
+      "category": "design"
+    },
+    {
+      "name": "core-3d-animation",
+      "description": "3D et animation : Three.js, GSAP ScrollTrigger, React Three Fiber, Framer Motion, Babylon.js. Copié depuis freshtechbro/claudedesignskills (MIT).",
+      "source": "./plugins/core-3d-animation",
+      "category": "design"
+    },
+    {
+      "name": "superpowers",
+      "description": "Méthodes de travail : planification, débogage, TDD, revue de code. Pointe directement vers obra/superpowers (toujours à jour).",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      },
+      "category": "productivity"
     }
   ]
 }
