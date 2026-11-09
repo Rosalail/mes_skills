@@ -1,0 +1,8 @@
+{
+  "name": "grill-me",
+  "version": "1.0.0",
+  "description": "Interrogatoire méthodique pour éprouver un plan ou une décision. Skills grill-me et grilling copiés depuis mattpocock/skills (MIT).",
+  "author": { "name": "rosalail", "url": "https://github.com/rosalail" },
+  "homepage": "https://github.com/mattpocock/skills",
+  "license": "MIT"
+}

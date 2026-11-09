@@ -51,6 +51,18 @@
       "description": "Vérifie qu'un skill est sûr avant de l'installer : scan NVIDIA SkillSpector + revue du code, verdict APPROVE / CAUTION / REJECT.",
       "source": "./plugins/skill-inspector",
       "category": "security"
+    },
+    {
+      "name": "ponytail",
+      "description": "Mode « dev senior paresseux » : la solution la plus simple qui marche (YAGNI, bibliothèque standard d'abord). Copié depuis DietrichGebert/ponytail (MIT), sans benchmarks ni tests.",
+      "source": "./plugins/ponytail",
+      "category": "productivity"
+    },
+    {
+      "name": "grill-me",
+      "description": "Interrogatoire méthodique pour éprouver un plan ou une décision (/grill-me). Copié depuis mattpocock/skills (MIT).",
+      "source": "./plugins/grill-me",
+      "category": "productivity"
     }
   ]
 }

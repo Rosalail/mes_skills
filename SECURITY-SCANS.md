@@ -15,6 +15,8 @@ Le score du scanner seul ne fait pas le verdict : les scores élevés ci-dessous
 | `animation-design` | 13 | `APPROVE` | Rien de notable. |
 | `superpowers` (obra/superpowers @ `22f0b46`) | 100 (`writing-skills`) | `APPROVE` | Faux positifs : exemples de documentation. |
 | `skill-inspector` | 0 | `APPROVE` | Consignes de revue en lecture seule. |
+| `ponytail` (@ `96608e0`) | 62 (100 sur le dépôt entier) | `CAUTION`, accord donné par l'utilisatrice | Hooks Node à chaque message ; journal local des coûts activé par défaut ; webhook optionnel. |
+| `grill-me` | 8 | `APPROVE` | Consignes d'interrogatoire, rien de notable. |
 
 ## Détail des résultats élevés
 
@@ -44,4 +46,11 @@ Le score du scanner seul ne fait pas le verdict : les scores élevés ci-dessous
 - `brainstorming` : `TM1` sur `rm -f` de son propre fichier d'état de serveur local.
 - `using-superpowers` : `AS1` sur la documentation de `~/.codex/config.toml`.
 
+### `ponytail` (62 sur la partie installée, CAUTION)
+- Le scan du dépôt entier donne 100, presque uniquement à cause de `benchmarks/` et `tests/`, qui ne sont pas copiés.
+- `PE3` `plugin.json:31` : le jeton du webhook est rangé dans le trousseau système, jamais dans un fichier. C'est une protection.
+- `OH1` `hooks/band/metrics.ts:93` : `re.exec(output)` est une recherche de texte, pas une exécution.
+- À connaître : hooks Node au démarrage, à chaque message et pour chaque sous-agent ; journal local des coûts dans `~/.config/ponytail/band/` activé par défaut ; `/ponytail band import` lit les anciennes conversations Claude pour en tirer les chiffres ; webhook https optionnel, vide par défaut. Aucun envoi caché trouvé.
+
+### Note sur `superpowers`
 Ce plugin pointe vers le dépôt de son auteur : une nouvelle version n'est pas scannée automatiquement. Relancer le scan en cas de doute.

@@ -46,6 +46,14 @@ Pas de copie ici : la marketplace pointe directement vers [obra/superpowers](htt
 
 Copié depuis [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector), licence Apache-2.0. Seul le skill `skill-inspector` est repris : les exemples de test du dépôt, dont certains volontairement malveillants, ne le sont pas. Il rend un verdict `APPROVE`, `CAUTION` ou `REJECT` sur un skill avant son installation. Il utilise la commande `skillspector` si elle est installée (`uv tool install git+https://github.com/NVIDIA/skillspector.git`), et fait sinon une revue manuelle du code.
 
+## Plugin `ponytail`
+
+Copié depuis [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (commit `96608e0`), version 5.3.3, licence MIT. Seuls `skills/`, `hooks/` et le manifeste sont repris, sans `benchmarks/` ni `tests/`. Ce plugin pousse Claude vers la solution la plus simple qui fonctionne. Ses hooks lancent Node au démarrage, à chaque message et pour chaque sous-agent. Par défaut, il note le coût et les tokens de chaque tâche dans `~/.config/ponytail/band/<projet>.csv`. Le webhook est optionnel et vide par défaut.
+
+## Plugin `grill-me`
+
+Skills `grill-me` et `grilling` copiés depuis [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me), licence MIT. Ils servent à éprouver un plan par une série de questions. Lancer avec `/grill-me`.
+
 ## Ajouter un skill
 
 **Obligatoire :** chaque ajout passe d'abord par un scan NVIDIA SkillSpector et une revue du code. Le verdict est donné avant tout commit. Voir `CLAUDE.md` pour la procédure complète.
