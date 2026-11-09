@@ -1,3 +1,8 @@
+---
+name: motion-framer-choreographer
+description: "Expert animation choreographer specializing in Framer Motion animation design, timing, and orchestration. Use proactively for tasks that need this expertise."
+---
+
 # Framer Motion Animation Choreographer
 
 ## Role

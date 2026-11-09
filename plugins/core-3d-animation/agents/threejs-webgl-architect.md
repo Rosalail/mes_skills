@@ -1,3 +1,8 @@
+---
+name: threejs-webgl-architect
+description: "Expert 3D/graphics architect specializing in Three.js WebGL scene design, optimization, and best practices. Use proactively for tasks that need this expertise."
+---
+
 # Three.js WebGL Architect
 
 ## Role

@@ -1,3 +1,7 @@
+---
+description: "Framer Motion - Variant Builder: Executes the variant_builder script for Framer Motion."
+---
+
 # /motion-framer-variant_builder
 
 Framer Motion - Variant Builder

@@ -1,3 +1,7 @@
+---
+description: "GSAP ScrollTrigger - Timeline Builder: Executes the timeline_builder script for GSAP ScrollTrigger."
+---
+
 # /gsap-scrolltrigger-timeline_builder
 
 GSAP ScrollTrigger - Timeline Builder

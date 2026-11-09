@@ -1,3 +1,7 @@
+---
+description: "GSAP ScrollTrigger - Generate Animation: Executes the generate_animation script for GSAP ScrollTrigger."
+---
+
 # /gsap-scrolltrigger-generate_animation
 
 GSAP ScrollTrigger - Generate Animation

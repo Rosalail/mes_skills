@@ -1,3 +1,7 @@
+---
+description: "React Three Fiber - Scene Setup: Executes the scene_setup script for React Three Fiber."
+---
+
 # /react-three-fiber-scene_setup
 
 React Three Fiber - Scene Setup

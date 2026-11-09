@@ -1,3 +1,7 @@
+---
+description: "Babylon.js - Scene Generator: Executes the scene_generator script for Babylon.js."
+---
+
 # /babylonjs-engine-scene_generator
 
 Babylon.js - Scene Generator

@@ -1,3 +1,7 @@
+---
+description: "React Three Fiber - Component Generator: Executes the component_generator script for React Three Fiber."
+---
+
 # /react-three-fiber-component_generator
 
 React Three Fiber - Component Generator

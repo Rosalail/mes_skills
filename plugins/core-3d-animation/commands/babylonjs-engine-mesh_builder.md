@@ -1,3 +1,7 @@
+---
+description: "Babylon.js - Mesh Builder: Executes the mesh_builder script for Babylon.js."
+---
+
 # /babylonjs-engine-mesh_builder
 
 Babylon.js - Mesh Builder

@@ -1,3 +1,7 @@
+---
+description: "Framer Motion - Animation Generator: Executes the animation_generator script for Framer Motion."
+---
+
 # /motion-framer-animation_generator
 
 Framer Motion - Animation Generator

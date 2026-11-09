@@ -1,3 +1,7 @@
+---
+description: "Three.js WebGL - Setup Scene: Executes the setup_scene script for Three.js WebGL."
+---
+
 # /threejs-webgl-setup_scene
 
 Three.js WebGL - Setup Scene
