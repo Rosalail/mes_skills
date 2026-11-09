@@ -45,6 +45,12 @@
         "repo": "obra/superpowers"
       },
       "category": "productivity"
+    },
+    {
+      "name": "skill-inspector",
+      "description": "Vérifie qu'un skill est sûr avant de l'installer : scan NVIDIA SkillSpector + revue du code, verdict APPROVE / CAUTION / REJECT.",
+      "source": "./plugins/skill-inspector",
+      "category": "security"
     }
   ]
 }

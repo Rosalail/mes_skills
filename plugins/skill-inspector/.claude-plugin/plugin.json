@@ -1,0 +1,8 @@
+{
+  "name": "skill-inspector",
+  "version": "1.0.0",
+  "description": "Revue de sécurité d'un skill avant installation (NVIDIA SkillSpector + revue du code). Copié depuis NVIDIA/SkillSpector (Apache-2.0).",
+  "author": { "name": "rosalail", "url": "https://github.com/rosalail" },
+  "homepage": "https://github.com/NVIDIA/SkillSpector",
+  "license": "Apache-2.0"
+}

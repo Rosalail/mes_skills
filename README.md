@@ -42,6 +42,10 @@ Copié depuis [freshtechbro/claudedesignskills](https://github.com/freshtechbro/
 
 Pas de copie ici : la marketplace pointe directement vers [obra/superpowers](https://github.com/obra/superpowers), qui reste ainsi toujours à jour. Couvre la planification, le débogage, le TDD et la revue de code.
 
+## Plugin `skill-inspector`
+
+Copié depuis [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector), licence Apache-2.0. Seul le skill `skill-inspector` est repris : les exemples de test du dépôt, dont certains volontairement malveillants, ne le sont pas. Il rend un verdict `APPROVE`, `CAUTION` ou `REJECT` sur un skill avant son installation. Il utilise la commande `skillspector` si elle est installée (`uv tool install git+https://github.com/NVIDIA/skillspector.git`), et fait sinon une revue manuelle du code.
+
 ## Ajouter un skill
 
 Placer le dossier du skill (avec son `SKILL.md`) dans `plugins/caveman/skills/`, ou créer un nouveau plugin dans `plugins/` et le déclarer dans `.claude-plugin/marketplace.json`.
