@@ -63,6 +63,12 @@
       "description": "Interrogatoire méthodique pour éprouver un plan ou une décision (/grill-me). Copié depuis mattpocock/skills (MIT).",
       "source": "./plugins/grill-me",
       "category": "productivity"
+    },
+    {
+      "name": "web-design-guidelines",
+      "description": "Audit d'accessibilité et d'ergonomie d'une interface (règles Vercel, copie figée et scannée). Copié depuis vercel-labs/agent-skills (MIT).",
+      "source": "./plugins/web-design-guidelines",
+      "category": "design"
     }
   ]
 }

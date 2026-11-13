@@ -17,6 +17,7 @@ Le score du scanner seul ne fait pas le verdict : les scores élevés ci-dessous
 | `skill-inspector` | 0 | `APPROVE` | Consignes de revue en lecture seule. |
 | `ponytail` (@ `96608e0`) | 62 (100 sur le dépôt entier) | `CAUTION`, accord donné par l'utilisatrice | Hooks Node à chaque message ; journal local des coûts activé par défaut ; webhook optionnel. |
 | `grill-me` | 8 | `APPROVE` | Consignes d'interrogatoire, rien de notable. |
+| `web-design-guidelines` (@ `1a2c79d`, règles @ `434b7f9`) | 0 | `APPROVE` | Règles figées en local : le téléchargement de règles à chaque usage a été retiré. |
 
 ## Détail des résultats élevés
 
@@ -51,6 +52,9 @@ Le score du scanner seul ne fait pas le verdict : les scores élevés ci-dessous
 - `PE3` `plugin.json:31` : le jeton du webhook est rangé dans le trousseau système, jamais dans un fichier. C'est une protection.
 - `OH1` `hooks/band/metrics.ts:93` : `re.exec(output)` est une recherche de texte, pas une exécution.
 - À connaître : hooks Node au démarrage, à chaque message et pour chaque sous-agent ; journal local des coûts dans `~/.config/ponytail/band/` activé par défaut ; `/ponytail band import` lit les anciennes conversations Claude pour en tirer les chiffres ; webhook https optionnel, vide par défaut. Aucun envoi caché trouvé.
+
+### `web-design-guidelines` (0, APPROVE)
+- L'original suit des règles téléchargées à chaque usage, qui pourraient changer sans scan. Les règles du commit `434b7f9` ont été scannées (0/100), copiées dans `rules.md`, et le skill a été modifié pour ne lire que cette copie.
 
 ### Note sur `superpowers`
 Ce plugin pointe vers le dépôt de son auteur : une nouvelle version n'est pas scannée automatiquement. Relancer le scan en cas de doute.
