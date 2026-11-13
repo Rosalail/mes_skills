@@ -54,6 +54,14 @@ Copié depuis [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponyta
 
 Skills `grill-me` et `grilling` copiés depuis [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me), licence MIT. Ils servent à éprouver un plan par une série de questions. Lancer avec `/grill-me`.
 
+## Plugin `ui-ux-pro-max`
+
+Copié depuis [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (commit `9b675f0`), licence MIT, sans `scripts/tests/`. C'est une bibliothèque de design consultable en local : styles, palettes, associations de polices, règles UX, graphiques et 22 technologies (web, SwiftUI, React Native, Flutter…). Son mode « design system » peut écrire un dossier de fichiers de design dans le projet.
+
+## Plugin `web-design-guidelines`
+
+Skill de [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (commit `1a2c79d`), licence MIT. Il audite le code d'une interface : accessibilité, ergonomie, bonnes pratiques web. Modification locale : l'original télécharge ses règles à chaque utilisation. Ici, il lit une copie figée et scannée, `rules.md`, tirée de [vercel-labs/web-interface-guidelines](https://github.com/vercel-labs/web-interface-guidelines) (commit `434b7f9`). Pour mettre ces règles à jour, il faut refaire un ajout scanné.
+
 ## Ajouter un skill
 
 **Obligatoire :** chaque ajout passe d'abord par un scan NVIDIA SkillSpector et une revue du code. Le verdict est donné avant tout commit. Voir `CLAUDE.md` pour la procédure complète.

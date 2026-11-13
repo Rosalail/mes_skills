@@ -63,6 +63,18 @@
       "description": "Interrogatoire méthodique pour éprouver un plan ou une décision (/grill-me). Copié depuis mattpocock/skills (MIT).",
       "source": "./plugins/grill-me",
       "category": "productivity"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "description": "Bibliothèque de design : styles, palettes, polices, règles UX, 22 technologies dont SwiftUI, React Native et Flutter. Copié depuis nextlevelbuilder/ui-ux-pro-max-skill (MIT).",
+      "source": "./plugins/ui-ux-pro-max",
+      "category": "design"
+    },
+    {
+      "name": "web-design-guidelines",
+      "description": "Audit d'accessibilité et d'ergonomie d'une interface (règles Vercel, copie figée et scannée). Copié depuis vercel-labs/agent-skills (MIT).",
+      "source": "./plugins/web-design-guidelines",
+      "category": "design"
     }
   ]
 }

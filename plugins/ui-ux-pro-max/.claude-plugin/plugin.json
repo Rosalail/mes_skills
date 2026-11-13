@@ -1,0 +1,8 @@
+{
+  "name": "ui-ux-pro-max",
+  "version": "1.0.0",
+  "description": "Bibliothèque de design consultable : styles, palettes, polices, règles UX et 22 technologies (web, SwiftUI, React Native, Flutter…). Copié depuis nextlevelbuilder/ui-ux-pro-max-skill (MIT), sans les tests.",
+  "author": { "name": "rosalail", "url": "https://github.com/rosalail" },
+  "homepage": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "license": "MIT"
+}

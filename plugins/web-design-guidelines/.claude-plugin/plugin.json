@@ -1,0 +1,8 @@
+{
+  "name": "web-design-guidelines",
+  "version": "1.0.0",
+  "description": "Audit d'interface : accessibilité, ergonomie et bonnes pratiques web. Skill de vercel-labs/agent-skills (MIT) avec une copie figée et scannée des règles, sans téléchargement à l'usage.",
+  "author": { "name": "rosalail", "url": "https://github.com/rosalail" },
+  "homepage": "https://github.com/vercel-labs/agent-skills",
+  "license": "MIT"
+}
